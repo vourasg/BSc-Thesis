@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.icsd.municipapp.PreviewReport">
+    <item
+        android:id="@+id/tabbed_preview"
+        android:orderInCategory="1"
+        android:title="Tabbed Preview"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/listed_preview"
+        android:orderInCategory="2"
+        android:title="Listed Preview"
+        app:showAsAction="never" />
+</menu>

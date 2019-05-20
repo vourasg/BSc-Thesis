@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey_main"
+
+    tools:context="com.icsd.municipapp.ReviewReports$PlaceholderFragment">
+
+        <TextView
+            android:background="#DDDDDD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/swipe_to_load"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/review_loc_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?attr/actionBarSize">
+
+        <ListView
+            android:divider="@color/black"
+            android:listSelector="@drawable/list_selector"
+            android:dividerHeight="3dp"
+            android:padding="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Review_List">
+
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

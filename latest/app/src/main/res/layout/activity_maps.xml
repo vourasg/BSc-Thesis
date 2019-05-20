@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0px"
+    android:paddingLeft="0px"
+    android:paddingRight="0px"
+    style="@style/AppTheme.NoActionBar"
+    android:paddingTop="0px">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_layout2">
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/map_type_sp"
+            android:layout_alignParentEnd="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_type"
+            android:textSize="20sp"
+            android:layout_toStartOf="@id/map_type_sp"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_location_search"
+        android:layout_below="@id/maptype_layout2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4dp">
+
+
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                    tools:layout="@layout/activity_maps" />
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+        
+    </LinearLayout>
+
+
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.icsd.municipapp.MapsActivity"
+        android:layout_below="@id/LL_location_search"
+        tools:layout="@layout/activity_maps" />
+
+
+
+    <Button
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:text="@string/select_marker_button"
+        android:layout_marginStart="10dp"
+        android:id="@+id/confirm_marker"
+        android:visibility="invisible"
+
+        />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

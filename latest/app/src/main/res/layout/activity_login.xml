@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    tools:context="com.icsd.municipapp.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:textStyle="italic"
+        android:text="Συνδεθείτε στην εφαρμογή και ξεκινήστε τις αναφορές!"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:src="@drawable/login_icon"
+        android:scaleType="fitCenter"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/MunicipApp_login"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+         />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.icsd.municipapp.ReviewDetailed">
+    <item
+        android:id="@+id/comments"
+        android:icon="@drawable/comments_icon"
+        app:showAsAction="always|collapseActionView"
+        android:title="comments" />
+</menu>

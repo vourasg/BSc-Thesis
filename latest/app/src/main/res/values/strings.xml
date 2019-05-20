@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">MunicipApp</string>
+    <string name="intro_text">Together We Can</string>
+    <string name="intro_title">Connecting</string>
+    <string name="login_title">Login</string>
+    <string name="preview_title">Preview Report</string>
+    <string name="register_title">Register</string>
+    <string name="my_report_title">My Reports</string>
+    <string name="review_detailed_title">Details</string>
+    <string name="review_report_title">Review</string>
+
+    <string name="nav_general">General</string>
+    <string name="nav_profile_settings">Profile Settings</string>
+    <string name="nav_language">Language</string>
+    <string name="nav_gr">Greek</string>
+    <string name="nav_en">English</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_app">Application</string>
+    <string name="nav_help">Instructions</string>
+    <string name="nav_rep_app">Report a problem</string>
+
+    <string name="password_prompt">Password</string>
+    <string name="re_password_prompt">Retype password</string>
+    <string name="password_old_prompt">Old password</string>
+    <string name="username_prompt">Username</string>
+    <string name="register_button">Register</string>
+    <string name="old_pass_wrong">Incorrect Password</string>
+
+    <string name="tab1">Description</string>
+    <string name="tab2">Image</string>
+    <string name="tab3">Location</string>
+
+
+    <string name="Highest_score_in_single_report">Highest score in single report</string>
+    <string name="Total_score_of_your_reports">Total score of your reports</string>
+    <string name="num_1" translatable="false">1</string>
+    <string name="num_2" translatable="false">2</string>
+    <string name="num_3" translatable="false">3</string>
+    <string name="num_4" translatable="false">4</string>
+    <string name="num_5" translatable="false">5</string>
+    <string name="num_6" translatable="false">6</string>
+    <string name="num_7" translatable="false">7</string>
+    <string name="num_8" translatable="false">8</string>
+    <string name="num_9" translatable="false">9</string>
+    <string name="num_10" translatable="false">10</string>
+
+
+    <string name="swipe_to_load">Swipe down to load</string>
+
+    <string name="enter_image_comment">Image Comment</string>
+
+    <string name="settings_profile_name">Profile name</string>
+    <string name="settings_email">Email</string>
+    <string name="settings_dob">Date of Birth</string>
+    <string name="day_hint">dd</string>
+    <string name="month_hint">mm</string>
+    <string name="year_hint">yyyy</string>
+    <string name="slash" translatable="false">/</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings_facebook_error">Facebook data can not be changed</string>
+    <string name="pass_change">Change Password</string>
+    <string name="password_short">Password too short</string>
+    <string name="password_match_err">Passwords doesn\'t match</string>
+    <string name="password_empty">Change your password or press \'Change password\' again</string>
+    <string name="password_re_empty">Please re-type password</string>
+
+
+    <string name="app_id" translatable="false">670991353088179</string>
+    <string-array name="map_types">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>None</item>
+    </string-array>
+
+
+    <!--  MainScreen Class   -->
+    <string name="ask_for_review">Select method</string>
+    <string name="ask_for_review_message">Select your wished Locality from current position or select it manually?</string>
+    <string name="dialog_current_location">Current location</string>
+    <string name="dialog_select_manually">Select it manually</string>
+    <string name="progressbar_text">Locating your position…</string>
+    <string name="main_screen_title">Home</string>
+    <string name="locate_title">Locating your position</string>
+    <string name="locate_message">Please wait…</string>
+
+
+    <!--  ImageLoader CLass     -->
+    <string name="imageloader_title">Report\'s Image</string>
+    <string name="image_header_tv">\tUploading an image, will help us and other users to precisely
+            identify the report\'s object \n\t You can skip this step by clicking \'SKIP\' button at
+            the end of the screen</string>
+    <string name="upload_image_tv">Upload Image</string>
+    <string name="album_button" translatable="false">Select image from Gallery</string>
+    <string name="camera_button" translatable="false">Open camera to take a picture</string>
+    <string name="gallery_tv">Gallery</string>
+    <string name="camera_tv">Camera</string>
+    <string name="image">Image</string>
+    <string name="image_skip_tv">Skip</string>
+
+
+    <!--  REPORT CATEGORIES Class  -->
+    <string name="report_category_title">Report\'s Description</string>
+    <string name="report_category">Report\'s Category</string>
+    <string name="report_category_et">Report\'s Category</string>
+    <string name="report_category_et_hint">Select Category</string>
+    <string name="report_type">Report\'s Type</string>
+    <string name="report_type_et">Report\'s Type</string>
+    <string name="report_type_et_hint">Select Type</string>
+    <string name="select_report_button">Proceed</string>
+    <string name="description">Report\'s description</string>
+    <string name="description_et_hint">Description</string>
+
+
+    <!--  SelectLocation.Class   -->
+    <string name="map_type">Map type</string>
+    <string name="image_button_content">Select Marker</string>
+    <string name="select_marker_button">Select Marker</string>
+    <string name="select_current_location_button">Select current location</string>
+    <string name="search_location_et">Search for a location here</string>
+    <string name="location">Location</string>
+    <string-array name="categories">
+        <item name="General">General</item>
+        <item name="Road transport and Lighting">Road transport and Lighting</item>
+        <item name="Environmental Issues and Cleanliness">Environmental Issues and Cleanliness</item>
+        <item name="Works">Works</item>
+        <item name="Maintenance">Maintenance</item>
+    </string-array>
+    <string-array name="General">
+        <item name="Addressing emergencies">Addressing emergencies</item>
+        <item name="Autopsy">Autopsy</item>
+        <item name="General complains">General complains</item>
+        <item name="Complains to the Mayor">Complains to the Mayor</item>
+        <item name="Event support">Event support</item>
+    </string-array>
+    <string-array name="Road_transport_Lighting">
+        <item name="Road Labeling">Road Labeling</item>
+        <item name="Road Lines">Road Lines</item>
+        <item name="Broken Traffic Light">Broken Traffic Light</item>
+        <item name="Broken Asphalt">Broken Asphalt</item>
+        <item name="Traffic issues">Traffic issues</item>
+        <item name="Dissembled Advertising billboard">Dissembled Advertising billboard</item>
+        <item name="skimpy Lighting">skimpy Lighting</item>
+        <item name="Damaged public lighting">Damaged public lighting</item>
+    </string-array>
+    <string-array name="Environmental_Issues_Cleanliness">
+        <item name="Road Cleanliness">Road Cleanliness</item>
+        <item name="Coast Cleansing">Coast Cleansing</item>
+        <item name="Builders Cleansing">Builders Cleansing</item>
+        <item name="Object Transport">Object Transport</item>
+        <item name="Large object disposing">Large object disposing</item>
+        <item name="Abandoned vehicles withdrawal">Abandoned vehicles withdrawal</item>
+        <item name="Trash bin">Trash bin</item>
+        <item name="Recycle bin">Recycle bin</item>
+        <item name="Environmental pollution">Environmental pollution</item>
+    </string-array>
+    <string-array name="Works">
+        <item name="Building works">Building works</item>
+        <item name="Plumbing works">Plumbing works</item>
+        <item name="Electrical work">Electrical work</item>
+        <item name="Ironworks">Ironworks</item>
+        <item name="Earthmoving works">Earthmoving works</item>
+        <item name="Woodworking works">Woodworking works</item>
+        <item name="Tree and Shrub works">Tree and Shrub works</item>
+    </string-array>
+    <string-array name="Maintenance">
+        <item name="Public Building Maintenance">Public Building Maintenance</item>
+        <item name="Playground Maintenance">Playground Maintenance</item>
+        <item name="Varnishing of Communal Aerias">Varnishing of Communal Aerias</item>
+    </string-array>
+
+
+    <string name="title_reportpreview_list" translatable="false">Items</string>
+    <string name="title_reportpreview_detail" translatable="false">Report Preview Detail</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_review_report">Review Repors</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="title_activity_preview_report">Preview Report</string>
+    <string name="title_activity_review_reports">Review Reports</string>
+    <string name="title_activity_review_detailed">Report\'s Details</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_screen" translatable="false">MainScreen</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="title_activity_app_login">Sign in</string>
+
+    <string name="review_closed_button_text">My Reports</string>
+    <string name="add_button_text">New Report</string>
+    <string name="review_button_text">Locality Reports</string>
+    <string name="achievements_button_text">Achievements</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."</string>
+
+
+    <string name="instructions_bar_title">Instructions</string>
+    <string name="instructions_add_title">How to add a report</string>
+    <string name="instructions_add">" 1) You have to select your report's kind from the predefined categories.\n    \n  2) Then you have the option to upload an image, in order to make reported the problem to be easily located.\n    \n  3) In this step you have to select the location of the reported object.\n    \n  4) Finally, you have the chance to preview the report that you are about to upload and ensure that the information\n    you have provided are correct."</string>
+
+
+    <string name="instructions_review_title">How to review reports</string>
+    <string name="instructions_review">You have two options to exam uploaded reports. \n \n  1) You can exam the open reports that have not been corrected by the local authority or\n    \n  2) You can exam the closed ones that have been corrected.\n    \n  In any of the above cases, you can take action and up-vote or down-vote the content and interact which\n        other users by commenting in the report.</string>
+
+    <string name="instructions_achievements_title">How to check achievements</string>
+    <string name="instructions_achievements">You can monitor your progress of your achievements and the
+    progress of the top ones.</string>
+
+
+    <!--  Add Comment Class   -->
+    <string name="comment_hint">Enter comment</string>
+    <string name="title_activity_achievements">Achievements</string>
+    <string name="Works" translatable="false">as</string>
+
+    <!--  Achievements   -->
+    <string name="rank">Rank: </string>
+    <string name="score">Score: </string>
+    <string name="user">User: </string>
+
+    <!--  Review   -->
+    <string name="locality_reports">Locality Reports</string>
+    <string name="my_reports">My Reports</string>
+
+
+    <string name="app_report_tv_top">Reporting an application bug, problem or enhancement will help up improve ourselves</string>
+    <string name="app_report_tv_et">Describe here</string>
+    <string name="app_report_bt">submit</string>
+    <string name="sending">Sending report</string>
+    <string name="sending_message">Please wait until report is uploaded…</string>
+    <string name="sending_ok">Upload completed!!</string>
+    <string name="sending_error">Error while uploading!!</string>
+    <string name="error">An error has occurred</string>
+
+
+    <string name="uploading">Uploading</string>
+    <string name="upload">Upload</string>
+    <string name="upload_ok">Report uploading completed!</string>
+    <string name="sending_inf">Sending your information \nPlease wait…</string>
+
+    <string name="name_ok">Username has been updated successfully!</string>
+    <string name="name_error">Username in use!</string>
+    <string name="bday_ok">Birthday has been updated successfully!</string>
+    <string name="bday_error">An error has occurred</string>
+    <string name="mail_ok">E-mail has been updated successfully!</string>
+    <string name="wrong_password">Wrong password!</string>
+    <string name="mail_error">E-mail already in use</string>
+    <string name="password_ok">Password has been updated successfully!</string>
+    <string name="image_ok">Image has been updated successfully!</string>
+    <string name="image_error">Could not update image</string>
+    <string name="change_mail">E-mail change</string>
+    <string name="new_mail">New email</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="comments_title">Comments</string>
+    <string name="app_report_title">Report a problem</string>
+
+    <string name="connection_error">Connectivity Error</string>
+    <string name="noNetwork">There is no Internet connection. Connect and try again</string>
+    <string name="noServer">Server is offline</string>
+    <string name="logout_err">Account will not be logged out properly. Exit from application?</string>
+    <string name="exit_app">Exit</string>
+    
+    
+    <string name="dialog_comment_title">"Comment "</string>
+    <string name="dialog_comment_msg">Upload the comment?</string>
+    <string name="dialog_comment_opt1">Upload</string>
+    <string name="comment">Comment </string>
+    <string name="registration">Registration</string>
+    <string name="registration_msg">Registration Completed! \nLogin to continue</string>
+
+    <string name="open_reports">Open</string>
+    <string name="in_progress">In Progress</string>
+    <string name="closed_reports">Closed</string>
+    <string name="uploaded">uploaded</string>
+    <string name="not_uploaded">has not been uploaded</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="reconnect_msg">You have to reconnect!</string>
+
+    <string name="no_description">Without Description</string>
+    <string name="notCompleted">Action has not been completed.</string>
+    <string name="retry">retry</string>
+    <string name="no_inet"><i>no internet connection</i></string>
+    <string name="upvoted_already">You have already up-voted the report</string>
+    <string name="downvoted_already">You have already down-voted the report</string>
+    <string name="upvoting_completed">Upvoting completed</string>
+    <string name="downvoting_completed">Downvoting completed</string>
+    <string name="upvoting_error">Upvoting has not been completed</string>
+    <string name="downvoting_error">Your downvoting has not been completed</string>
+
+
+</resources>

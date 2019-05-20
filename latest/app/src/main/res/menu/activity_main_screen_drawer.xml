@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                        android:title="@string/nav_profile_settings" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/nav_logout" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/nav_language"
+        android:icon="@drawable/language_icon"
+        android:title="@string/nav_language">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_greek"
+                    android:icon="@drawable/greek_flag"
+                    android:title="@string/nav_gr"/>
+                <item
+                    android:id="@+id/nav_english"
+                    android:icon="@drawable/gb_flag"
+                    android:title="@string/nav_en"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_app">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help_icon"
+                android:title="@string/nav_help" />
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/app_report_icon"
+                android:title="@string/nav_rep_app" />
+        </menu>
+    </item>
+
+</menu>

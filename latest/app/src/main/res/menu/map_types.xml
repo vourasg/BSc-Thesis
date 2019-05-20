@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/normal_map_type"
+        android:icon="@drawable/add_icon"
+        android:title="Normal" />
+
+    <item android:id="@+id/hybrid_map_type"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Hybrid" />
+
+    <item android:id="@+id/satellite_map_type"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Satellite" />
+
+
+    <item android:id="@+id/terrain_map_type"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Terrain" />
+
+    <item android:id="@+id/none_map_type"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="None" />
+
+
+</menu>

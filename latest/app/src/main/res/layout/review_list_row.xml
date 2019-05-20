@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dip">
+
+        <!--  Report's StreetView  -->
+        <ImageView
+            android:id="@+id/streetView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null" />
+
+    </LinearLayout>
+
+    <!-- Type of Report-->
+    <ImageView
+        android:id="@+id/forward_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forward_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null" />
+    <TextView
+        android:ellipsize="end"
+        android:maxLines="7"
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ll"
+        android:layout_toEndOf="@id/ll"
+        android:layout_toStartOf="@id/forward_icon"
+        android:maxHeight="100dp"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <!-- Rightend Date -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/type"
+        android:gravity="end"
+        android:layout_marginEnd="5dip"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!-- Rightend Arrow -->
+
+
+    <TextView
+        android:layout_below="@id/ll"
+        android:background="#DFDFDF"
+        android:id="@+id/address_tv"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/marker_small"
+        android:gravity="start|center"
+        android:textSize="9sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
